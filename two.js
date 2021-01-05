@@ -1,12 +1,12 @@
 var n=7;
-for (var i=2;i<n/2;i++)
 {
-    if(n%i==0)
-    {
-        console.log("divisable");
-    }
-    else
-    {
-        console.log("not divisable");
-    }
+    if (n%2==0)
+        {
+            console.log("divisible")
+        
+        }
+        else
+        {
+            console.log("not divisible")
+        }
 }
