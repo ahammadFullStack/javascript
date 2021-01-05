@@ -1,6 +1,6 @@
-var n=7;
+var n=22;
 {
-    if (n%2==0)
+    if (n%7==0)
         {
             console.log("divisible")
         
