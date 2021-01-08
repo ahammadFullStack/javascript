@@ -1,4 +1,4 @@
-var n=14;
+var n=3;
 {
     if(n*3==0){
         console.log("multiple")
