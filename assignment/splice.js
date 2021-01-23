@@ -1,5 +1,11 @@
-const num = [1,2,3,4,5];
-num.splice(2,3);
-//console.log(num);
-const deleted =num.splice (2,3,6,7);
-console.log(deleted);
+/*var fruits =["banana","ornage","apple","mango"];
+fruits.splice(2,2, "pineapple","ahammad");
+console.log(fruits);*/
+
+/*let colors = ['red','pink','green','blue','white'];
+colors.splice(2, 1,'ishwar','sattya');
+console.log(colors);*/
+
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.splice(2, 0, "Lemon", "Kiwi");
+console.log(fruits);
